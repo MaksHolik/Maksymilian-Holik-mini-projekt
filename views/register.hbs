@@ -1,0 +1,37 @@
+<div>
+    <h1 id="main_page">register</h1>
+</div>
+
+<div id="div_form">
+    <form action="/register" method="post">
+        <label>
+            <p>login:</p>
+            <input type="text" name="login" placeholder="np.: jan.kowalski" />
+        </label>
+
+        <label>
+            <p>password:</p>
+            <input type="password" name="password" />
+        </label>
+
+        <label>
+            <p>wiek:</p>
+            <input type="number" name="age" min="10" max="125" placeholder="18" />
+        </label>
+
+        <label>
+            <p>uczeń?</p>
+            <input type="checkbox" name="student" />
+        </label>
+
+        <label>
+            <p>płeć:</p>
+            <span><input type="radio" value="K" name="gender" />K</span> <span><input type="radio" value="M"
+                    name="gender" />M</span>
+        </label>
+
+        <label>
+            <button id="submit">Zarejestruj</button>
+        </label>
+    </form>
+</div>

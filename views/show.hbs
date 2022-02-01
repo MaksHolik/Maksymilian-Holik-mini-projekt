@@ -1,0 +1,16 @@
+<div id="show">
+    <table>
+        {{#each tab}}
+        <tr>
+            <td>id: {{id}}</td>
+            <td>user: {{username}} - {{password}}</td>
+            <td>uczeń: <input type="checkbox" disabled {{#if student}}checked{{/if}}></td>
+            <td>wiek: {{age}}</td>
+            <td>płeć: {{gender}}</td>
+        </tr>
+
+
+
+        {{/each}}
+    </table>
+</div>

@@ -1,0 +1,101 @@
+* {
+    margin: 0 auto;
+    font-family: monospace;
+    box-sizing: border-box;
+    
+}
+
+#header {
+    width: 100%;
+    padding: 15px;
+    background-color: #303E9F;
+    padding-left: 50px;
+}
+#sort {
+    width: 100%;
+    padding: 15px;
+    background-color: #FFE93D;
+    padding-left: 50px;
+}
+#header p {
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+}
+#sort p {
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#header a {
+    color: white;
+}
+
+#sort a {
+    color: black;
+}
+
+#main_page {
+    font-size: 100px;
+    margin-top: 5px;
+    text-align: center;
+    color: gainsboro;
+}
+form {
+    width: 300px;
+}
+form p {
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+}
+form label{
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}
+form >label > input {
+    width: 177px;
+}
+form span {
+    display: inline-block;
+    width: 86px;
+}
+#div_form, #div_login {
+    text-align: center;
+}
+button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: .3rem;
+}
+
+#fsort {
+    display: flex;
+    margin: 10px auto;
+}
+
+#fsort > input{
+    margin: 2px;
+}
+
+table {
+    font-size: 25px;
+    width: 98vw;
+}
+td {
+    padding: 6px;
+    border: 1.5px solid black;
+}
+#gender, #show {
+    margin: 10px auto;
+}

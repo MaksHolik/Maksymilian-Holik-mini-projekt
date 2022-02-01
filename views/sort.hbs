@@ -1,0 +1,20 @@
+<div id="sorted">
+    <form action="/asc" id="fsort" method="GET" onchange="this.submit()">
+        <label>
+            <span><input type="radio" name="sort" value="asc" {{#if asc}}checked{{/if}}>rosnąco</span>
+        </label>
+        <label>
+            <span><input type="radio" name="sort" value="desc" {{#if desc}}checked{{/if}}>malejąco</span>
+        </label>
+    </form>
+
+    <table>
+        {{#each tab1}}
+        <tr>
+            <td>id: {{id}}</td>
+            <td>user: {{username}} - {{password}}</td>
+            <td>wiek: {{age}}</td>
+        </tr>
+        {{/each}}
+    </table>
+</div>
